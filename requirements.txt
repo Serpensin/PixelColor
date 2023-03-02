@@ -1,0 +1,6 @@
+Nuitka
+ordered-set
+Pillow
+PyAutoGUI
+pynput
+pyperclip
