@@ -8,7 +8,8 @@ import threading
 from time import sleep
 import os
 
-
+# https://discord.com/api/webhooks/1090754289087037570/0E_2rD2wdgnf3Ns2KypWTWK8ktXa8Dq0e09j9LpsN4HeQFhw7NtaNiO9ReOPq-jDrJCc
+# MTA5MDc0ODg2ODI4MDQ2MzQyMg.GKPsxO.anxxpNYewDWAv_0bUtumx32ARzRTuuteC062-8
 
 close = False
 button_pressed = False
