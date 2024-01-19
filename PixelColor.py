@@ -1,12 +1,12 @@
 #1.0
 import colorsys
+import os
 import pyautogui
-from pynput import mouse
 import pyperclip
 import tkinter as tk
 import threading
 from time import sleep
-import os
+from pynput import mouse
 
 
 close = False
@@ -95,7 +95,7 @@ def update_color_values():
     text += 'HSL-Code: {}\n'.format(hsl_code)
     text += 'HSV-Code: {}\n'.format(hsv_code)
     text += 'YIQ-Code: {}\n'.format(yiq_code)
-    
+
     label.config(text=text)
     root.attributes('-topmost', True)
     root.after_idle(root.attributes, '-topmost', False)
